@@ -1,0 +1,21 @@
+#btn-translate{
+    display: block;
+    translate: 1.5rem;
+    width: 7rem;
+    border-radius: 1rem;
+    
+}
+#textarea{
+    margin: 1.5rem;
+    width: 25rem;
+    padding: 1rem;
+    border: 2px solid black
+}
+#output{
+    border: 2px solid black;
+    width: 27.5rem;
+    height: 11rem;
+    translate: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
