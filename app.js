@@ -6,4 +6,5 @@ var output = document.querySelector("#output")
 
 translate.addEventListener("click", function Eventhandler(){
     output.innerText = textarea.value
+    console.log("clicked")
 })
