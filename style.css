@@ -1,37 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 :root {
-    --primary-colour: #eab308;
+    --primary-colour: #fde047;
 }
 *{
-    font-family: 'Dancing Script', cursive;
-}
-body{
+    font-family: 'Bruno Ace SC', cursive;
     margin: 0;
-
-    font-size: xx-large;
-  }
-#btn-translate{
-    display: block;
-    translate: 1.5rem;
-    width: 7rem;
-    border-radius: 1rem;
-    
+    font-weight: bold;
+    font-size: medium;
 }
+
 #textarea{
     margin: 1.5rem;
-    width: 25rem;
+    width: 35rem;
     padding: 1rem;
     border: 2px solid black
 }
+#btn-translate{
+    display: block;
+    translate: 1.5rem;
+    width: 14rem;
+    height: 3rem;
+    
+    /* border-radius: 1rem; */
+    
+}
 #output{
     border: 2px solid black;
-    width: 27.5rem;
-    height: 11rem;
-    translate: 1rem;
+    width: 35rem;
+    height: 7rem;
+    
     margin-top: 2rem;
     padding: 1rem;
 }
+
+.container-center-heading{
+    margin: auto;
+    max-width:200px;
+}
+.container-center-textarea{
+    margin: auto;
+    max-width:700px;
+}
+.container-center-button{
+    margin: auto;
+    max-width:700px;
+}
+.translate-information{
+    margin: auto;
+    max-width:700px;
+    translate: 1.5rem;
+}
+.container-center-output{
+    margin: auto;
+    max-width:700px;
+    translate: -29px;
+}
+.footerheader{
+    margin: auto;
+    max-width:150px; 
+}
+.footer-para{
+    margin: auto;
+    max-width:700px;
+    translate: 1.5rem;
+}
+.background-colour{
+    background-color: var(--primary-colour);
+}
+.header-height{
+    height: 5rem;
+
+    
+}
+.footer-height{
+    height: 6.5rem;
+}
+
+.header-padding{
+    padding-top: 1.5rem;
+}
+.textarea-padding{
+    padding-top: 1rem;
+
+}
+.translate-information-padding{
+    padding-top: 1.5rem;
+}
+.footer-padding{
+    padding-top: 1.5rem;
+}
+.footer-margin{
+    margin-top: 1.5rem;
+}
+
+.footer-para-padding{
+    padding-top: 1rem;
+}
+#btn-translate{
+    background-color: var(--primary-colour);
+}
+
 
 
 
