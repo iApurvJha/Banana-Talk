@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-colour: #eab308;
+}
+*{
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    margin: 0;
+
+    font-size: xx-large;
+  }
 #btn-translate{
     display: block;
     translate: 1.5rem;
@@ -19,3 +32,6 @@
     margin-top: 2rem;
     padding: 1rem;
 }
+
+
+
